@@ -194,7 +194,7 @@ npm install --omit=dev
 
 ## Disclaimer
 
-This library is not officially associated with Brave Software. It is a third-party implementation of the Brave Search API with a MCP Server.
+This library is not officially associated with Brave Software. It is a third-party implementation of the Brave Search API with an MCP Server.
 
 ## Security
 
