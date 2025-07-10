@@ -101,6 +101,11 @@ An MCP Server implementation that integrates the [Brave Search API](https://brav
 docker build -t brave-search-mcp:latest -f ./Dockerfile .
 ```
 
+The Docker container includes:
+- Built-in health checks for monitoring container status
+- Security-enhanced configuration with least privilege principles
+- Optimized multi-stage build process
+
 3. Add this to your `claude_desktop_config.json`:
 
 ```json
