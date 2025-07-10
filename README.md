@@ -162,6 +162,29 @@ brave-search:
     - BRAVE_API_KEY=API KEY npx -y brave-search-mcp
 ```
 
+### Usage with Warp-Terminal
+
+Add this to your MCP Servers section in Warp Drive as a new server
+
+```json
+{
+  "brave-search": {
+    "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "BRAVE_API_KEY",
+        "brave-search-mcp"
+      ],
+    "env": {
+      "BRAVE_API_KEY": "YOUR API KEY HERE"
+    }
+  }
+}
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
