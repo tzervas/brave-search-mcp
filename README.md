@@ -1,6 +1,7 @@
 > **Fork Notice**  
 > This repository is a fork of [brave-search-mcp](https://github.com/mikechao/brave-search-mcp) originally created by [Mike Chao](https://github.com/mikechao).
 > The original project is licensed under the GNU General Public License v3.0.
+> Modified July 2025 by Tyler Zervas to update repository references and badges.
 
 # Brave Search MCP Server
 
