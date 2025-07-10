@@ -196,6 +196,17 @@ npm install --omit=dev
 
 This library is not officially associated with Brave Software. It is a third-party implementation of the Brave Search API with a MCP Server.
 
+## Security
+
+This project takes security seriously. We have implemented several security measures and best practices:
+
+- Regular security scanning with Trunk
+- Dependency management through UV package manager
+- Secure secret management practices
+- GPG-signed commits
+
+For detailed security information, please see our [Security Documentation](docs/security.md).
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.

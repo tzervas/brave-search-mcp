@@ -1,0 +1,6 @@
+# Format: CVE-ID or vulnerability ID per line
+# Example:
+# CVE-2021-123456
+# CVE-2022-789012
+#
+# Add specific CVEs that are confirmed false positives below:
