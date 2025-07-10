@@ -152,7 +152,7 @@ Add this to your `claude_desktop_config.json`:
 
 ### Usage with LibreChat
 
-Add this to librechat.yaml
+Add this to `librechat.yaml`:
 
 ```yaml
 brave-search:
@@ -164,7 +164,7 @@ brave-search:
 
 ### Usage with Warp-Terminal
 
-Add this to your MCP Servers section in Warp Drive as a new server
+Add this to your `MCP Servers` list as a new server in `Warp Drive`:
 
 ```json
 {
