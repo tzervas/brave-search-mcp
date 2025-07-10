@@ -1,9 +1,13 @@
+> **Fork Notice**  
+> This repository is a fork of [brave-search-mcp](https://github.com/mikechao/brave-search-mcp) originally created by [Mike Chao](https://github.com/mikechao).
+> The original project is licensed under the GNU General Public License v3.0.
+
 # Brave Search MCP Server
 
 An MCP Server implementation that integrates the [Brave Search API](https://brave.com/search/api/), providing, Web Search, Local Points of Interest Search, Video Search, Image Search and News Search capabilities
 
-<a href="https://glama.ai/mcp/servers/@mikechao/brave-search-mcp">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@mikechao/brave-search-mcp/badge" alt="Brave Search MCP server" />
+<a href="https://github.com/tzervas/brave-search-mcp">
+  <img width="380" height="200" src="https://img.shields.io/github/stars/tzervas/brave-search-mcp?style=social" alt="GitHub Repo stars" />
 </a>
 
 ## Features
@@ -87,14 +91,14 @@ An MCP Server implementation that integrates the [Brave Search API](https://brav
 
 ## Desktop Extension (DXT)
 
-1. Download the `dxt` file from the [Releases](https://github.com/mikechao/brave-search-mcp/releases)
+1. Download the `dxt` file from the [Releases](https://github.com/tzervas/brave-search-mcp/releases)
 2. Open it with Claude Desktop
    or
    Go to File -> Settings -> Extensions and drag the .DXT file to the window to install it
 
 ## Docker
 
-1. Clone the repo
+1. Clone this forked repository
 2. Docker build
 
 ```bash
