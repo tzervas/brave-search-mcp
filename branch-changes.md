@@ -53,6 +53,25 @@ This document tracks changes in each branch compared to upstream/main.
 - Enhanced Docker configuration
 - Added comprehensive copyright notices
 
+**Licensing Decisions and Rationale**:
+1. Choice of MIT License:
+   - Provides maximum flexibility for users and contributors
+   - Compatible with most other open source licenses
+   - Widely recognized and trusted in the open source community
+   - Aligned with project goals of transparency and reusability
+
+2. Attribution Strategy:
+   - Clear acknowledgment of original work in NOTICE file
+   - Explicit fork notice in README for transparency
+   - License headers in all modified files for clarity
+   - Maintainer contact information for accountability
+
+3. Documentation Updates:
+   - Comprehensive license information in README
+   - Detailed attribution in NOTICE file
+   - Clear explanation of license terms and obligations
+   - Transparent documentation of all changes
+
 **Changes Type**: Licensing and Attribution
 
 **Attribution Requirements**:
