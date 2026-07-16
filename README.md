@@ -102,6 +102,7 @@ docker build -t brave-search-mcp:latest -f ./Dockerfile .
 ```
 
 The Docker container includes:
+
 - Built-in health checks for monitoring container status
 - Security-enhanced configuration with least privilege principles
 - Optimized multi-stage build process
@@ -170,14 +171,14 @@ Add this to your `MCP Servers` list as a new server in `Warp Drive`:
 {
   "brave-search": {
     "command": "docker",
-      "args": [
-        "run",
-        "-i",
-        "--rm",
-        "-e",
-        "BRAVE_API_KEY",
-        "brave-search-mcp"
-      ],
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "-e",
+      "BRAVE_API_KEY",
+      "brave-search-mcp"
+    ],
     "env": {
       "BRAVE_API_KEY": "YOUR API KEY HERE"
     }

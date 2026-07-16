@@ -1,12 +1,13 @@
 // health.js
-const http = require('http');
+const http = require('node:http');
+const process = require('node:process');
 
 const port = process.env.PORT || 3000;
 const options = {
   host: 'localhost',
-  port: port,
+  port,
   timeout: 2000,
-  path: '/health'
+  path: '/health',
 };
 
 const request = http.request(options, (res) => {
